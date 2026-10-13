@@ -1,4 +1,4 @@
-# IDA* vs RBFS: Sliding Puzzle Benchmark
+# BFS vs DFS: Sliding Puzzle Benchmark
 
 Este repositório contém a implementação e a análise comparativa entre dois algoritmos de busca informada (**BFS** e **DFS**) aplicados ao problema do **Sliding Puzzle** (Quebra-Cabeça de Deslizar). 
 
