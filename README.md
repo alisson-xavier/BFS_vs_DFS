@@ -1,6 +1,6 @@
 # IDA* vs RBFS: Sliding Puzzle Benchmark
 
-Este repositório contém a implementação e a análise comparativa entre dois algoritmos de busca informada (**IDA\*** e **RBFS**) aplicados ao problema do **Sliding Puzzle** (Quebra-Cabeça de Deslizar). 
+Este repositório contém a implementação e a análise comparativa entre dois algoritmos de busca informada (**BFS** e **DFS**) aplicados ao problema do **Sliding Puzzle** (Quebra-Cabeça de Deslizar). 
 
 O projeto utiliza a biblioteca de busca fornecida pela **Equipe A** para conduzir os experimentos e avaliar o desempenho de ambos os algoritmos.
 
@@ -9,15 +9,15 @@ O projeto utiliza a biblioteca de busca fornecida pela **Equipe A** para conduzi
 ## Sobre o Projeto
 
 O objetivo principal deste estudo é comparar o comportamento, a eficiência e o consumo de recursos computacionais dos algoritmos:
-* **IDA\*** (Iterative Deepening A*)
-* **RBFS** (Recursive Best-First Search)
+* **BFS** (Breadth-First Search / Busca em Largura)
+* **DFS** (Depth-First Search / Busca em Profundidade)
 
 ### Problema Abordado
 O problema escolhido é o **Sliding Puzzle** nos seguintes tamanhos:
 * **3x3** (8-puzzle)
 * **4x4** (15-puzzle)
 
-Para garantir a imparcialidade e a aleatoriedade dos testes, os **estados iniciais** do puzzle são gerados através de um algoritmo de **Random Walk** (caminho aleatório) a partir do estado objetivo, garantindo que as instâncias sejam solucionáveis e apresentem diferentes níveis de dificuldade.
+Para garantir a imparcialidade e a aleatoriedade dos testes, os **estados iniciais** do puzzle serão gerados através de um algoritmo de **Random Walk** (caminho aleatório) a partir do estado objetivo, garantindo que as instâncias sejam solucionáveis e apresentem diferentes níveis de dificuldade.
 
 ---
 
