@@ -1,0 +1,46 @@
+{
+  "3x3_BFS": {
+    "runs": 120,
+    "status": {
+      "solved": 116,
+      "node_limit": 4
+    },
+    "execution_time_s": 0.0341928808334463,
+    "nodes_generated": 1722.1166666666666,
+    "max_frontier_size": 607.0583333333333,
+    "peak_memory_mib": 0.6695120493570964
+  },
+  "3x3_DFS": {
+    "runs": 120,
+    "status": {
+      "node_limit": 104,
+      "solved": 16
+    },
+    "execution_time_s": 0.4887465958332238,
+    "nodes_generated": 26020.991666666665,
+    "max_frontier_size": 11221.591666666667,
+    "peak_memory_mib": 11.07591864267985
+  },
+  "4x4_BFS": {
+    "runs": 120,
+    "status": {
+      "solved": 97,
+      "node_limit": 23
+    },
+    "execution_time_s": 0.15156627916667276,
+    "nodes_generated": 8122.333333333333,
+    "max_frontier_size": 4080.9333333333334,
+    "peak_memory_mib": 3.6675782362620035
+  },
+  "4x4_DFS": {
+    "runs": 120,
+    "status": {
+      "node_limit": 116,
+      "solved": 4
+    },
+    "execution_time_s": 0.56369886750014,
+    "nodes_generated": 29065.533333333333,
+    "max_frontier_size": 14647.608333333334,
+    "peak_memory_mib": 13.998614947001139
+  }
+}

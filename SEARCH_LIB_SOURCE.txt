@@ -1,0 +1,12 @@
+Origem: https://github.com/GustavoFelipeM/search_lib
+Commit: 8f119b004890be5109d3fae975670d9fbd0c49a7
+Obtido em: 2026-10-19
+
+A pasta search_lib foi copiada do repositório acima; DLS foi removido e as exportações foram ajustadas.
+Inclui BFS, DFS e o núcleo necessário para importação.
+
+Adaptação para Sliding Puzzle: BFS e DFS compartilham graph_search.py,
+utilizando as classes originais do core.py, controle de estados descobertos,
+limites de nós/tempo e status de término. As métricas de nós gerados contam
+estados distintos admitidos; nós expandidos excluem o objetivo.
+Os nomes bfs_tree.py e dfs_tree.py foram preservados por compatibilidade.

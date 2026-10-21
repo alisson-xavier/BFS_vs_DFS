@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-19",
+  "timezone": "America/Fortaleza",
+  "python": "3.14.6",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+  "sizes": [
+    3,
+    4
+  ],
+  "walk_depths": [
+    5,
+    10,
+    15,
+    20,
+    30,
+    40
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "max_nodes": 30000,
+  "time_limit_s": 2,
+  "runs": 480,
+  "pairs": 240,
+  "graph_search": true,
+  "tracemalloc": true,
+  "matplotlib": "3.11.2",
+  "note": "Execução local sem isolamento da carga; não há repetições temporais por instância.",
+  "sha256": {
+    "main.py": "59ab45161d3677cadf474459ab4cfde0a72ce9273a5f9bac6a1b4371691ef842",
+    "sliding_puzzle.py": "48d8597017021dd3b2664aa876a6e72ef112aeed48c6e2c80e318b134968d019",
+    "search_lib/core.py": "e969dfd9864edce2d87fbeb899a8995589cde53b7da7aa91512ac6ac1a0a02d1",
+    "search_lib/algorithms/graph_search.py": "21eddbaa81d367cd9cf0c1e4dee4839279690052019e3ec6494343ae3893bb06",
+    "search_lib/algorithms/bfs_tree.py": "9d5ea6e7fb797e0aadedcd9168b6d0601b72c9c2de72cf6b11cdfe5dac2d6fc2",
+    "search_lib/algorithms/dfs_tree.py": "fe93c5f0ccbc6a1682c01e756672f6cdd4d7a096b6b431d906983700d8cc5daa",
+    "results/d1.csv": "22de23f43eedce033ac6612b99eb614e2f86ea83b6f4efafa039e8910a58afbe",
+    "plot_results.py": "dc5b0d07d2ced756a4f9b752de5eb9c25a2e418aa0c0dae5702d7cd106301d23"
+  }
+}
